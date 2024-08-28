@@ -137,6 +137,7 @@ p {
     <input type="password" name="contrasena" placeholder="Password" required>
     <div class="forgot-password">
       <a href="#"></a>
+      <h2>Hello world</h2>
     </div>
     <button type="submit">Iniciar</button>
     <?php if (isset($error)) { echo "<p>$error</p>"; } ?>
